@@ -39,8 +39,6 @@ function checkAge(age) {
   age = Number(age)
   if (age) {
   
-   
-     
     if (age < age_1) 
       {console.log ("You don’t have access, cause your age is " + age + ". " + "It's less then 18")}
   
@@ -74,7 +72,6 @@ function checkAge(age) {
   age = Number(age)
   if (age && !isNaN(age)){
    
-     
     if (age < age_1) 
       {console.log ("You don’t have access, cause your age is " + age + ". " + "It's less then 18")}
   
@@ -112,7 +109,6 @@ function checkAge(age) {
   
   if (age && !isNaN(age)){
    
-     
     if (age < age_1) 
       {alert ("You don’t have access, cause your age is " + age + ". " + "It's less then 18")}
   
